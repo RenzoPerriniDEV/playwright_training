@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test --reporter=list",
+    "test-chrome": "npm run test -- --reporter=list --project=chromium --headed"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

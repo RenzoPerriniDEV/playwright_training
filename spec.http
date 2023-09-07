@@ -1,4 +1,4 @@
-@api=http://localhost:3000/api
+@api=http://localhost:4200/#/
 
 ###
 GET {{api}/get-all HTTP/1.1}
